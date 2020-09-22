@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Dark Study is an experimental program centered on art. We are digitally-rooted and virtual-first.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover"/>
+  <meta property="og:title" content="Dark Study">
+  <meta property="og:image" content="https://i.ibb.co/ckH9Jdz/ds-og.png">
+  <meta property="og:description" content="Dark Study is an experimental program centered on art.">
+  <meta property="og:url" content="https://darkstudy.net">
+  <meta property="og:type" content="website"/>
+  <link rel="icon" href="files/favicon.png" type="image/png">
+<title>Dark Study</title>
+<link rel="stylesheet" href="https://use.typekit.net/uhe6sln.css">
+<link rel="stylesheet" href="styles.css">
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.2/p5.min.js"></script>
+<script src="scripts.js"></script>
+</head>
+
+<body>
+  <div id="error">
+    <img src="files/reload.jpg">
+    <h2>Something went wrong. Refresh to continue.</h2>
+  </div>
+  <div class="overlay"><h1 class="overlay-logo"></h1></div>
+  <div class="warning"><div class="warning-overlay"></div><div id="warning-text"><div class="warning-close"><a>&times;</a></div><p>This interaction is not supported in Light Mode. Please open the eye and return to Dark Mode.</p></div></div>
+  <div class="landing">
+    <div id="hero"></div>
+    <div id="rectfield"></div>
+    <div class="charon"><p class="tagline"></p><img src="files/DarkStudy_caron.svg" width="75"></div>
+  </div>
+
+  <div class="spacer"></div>
+
+
+  <div id="main-container">
+  <div id="nav-mobi">
+    <div class="mobi eye">
+      <img src="files/eye_closed.svg">
+    </div>
+    <div class="mobi menu-mobi">
+      <a href="#admissions">Apply</a>
+      <a href="#mission">Mission</a>
+      <a href="#people">People</a>
+      <a href="#study">Study</a>
+      <a href="#faq">FAQ</a>
+      <a href="#donate">Donate</a>
+    </div>
+    <div class="mobi logo-mobi"></div>
+  </div>
+  <div id="nav">
+    <div id="hamburger">
+      <img class="icon-file base" id="open" src="files/eye_open.svg" width="60">
+      <img class="icon-file base" id="closed" src="files/eye_closed.svg" width="60">
+      <img class="icon-file base" id="closed-lightmode" src="files/eye_lightmode.svg" width="60">
+      <img class="icon-file base" id="open-tablet" src="files/tablet_eye.svg" width="60">
+    </div>
+    <div id="rectfield-small"></div>
+    <div id="hauntings"></div>
+    <div id="menu">
+        <a href="#admissions">Apply</a>
+        <a id="mission-nav" href="#mission">Mission</a>
+        <a href="#people">People</a>
+        <a href="#study">Study</a>
+        <a href="#faq">FAQ</a>
+        <a href="#donate">Donate</a>
+    </div>
+    <div id="logo-small"></div>
+  </div>
+
+  <div id="content">
+    <div id="info-column" class="col">
+      <div class="info-spacer" id="info1">
+        <div id="info1-g"><img src="files/rect_g.svg"></div>
+        <div id="info1-bw"><img src="files/rect_bw1.svg"></div>
+      </div>
+      <div id="admissions">
+        <div class="section-head">
+          <h1>Apply</h1>
+          <div class="mobi-img">
+          <img class="mobi nav_small" src="files/mobi_eye_black.png"></div>
+        </div>
+        <div class="app"><a href="https://docs.google.com/forms/d/1MHg1-RbpxmyRGlZ4dOAwgka22Co1r12R9bZqsfoLwTk/">Application Form</a></div>
+        <p><b>New Protocols for Applying</b></p>
+        <p>Community-building in schools is often talked about as if the process begins on the first day of school — a group of students happens to find themselves in the same space, at the same time. However, the community formed in the classroom is engineered long before the group gathers; its shape, the conversations it will likely have,  is rooted in the application form. An application form is a subtle form of gatekeeping. If a school truly wants to give opportunities to those who have been locked or forced out of higher education, then the usual signs of access and training embedded in the application must be reassessed. Using the same old “natural” markers of “success” can only reproduce the hostile conditions that exist in society at large, undermining any attempts at creating an inclusive community before the first day arrives.</p>
+
+        <p>The standard application form’s opening questions are so ubiquitous that they can seem unremarkable: where you’re from; where you went to high school, and where you went to college. Your race and ethnicity; the prizes, awards, and fellowships you’ve had. Like the classroom, like the university, the application form slyly embeds inequity before you enter its space. The form asks one to produce oneself as a kind of person who can slot neatly into a specific system of knowledge. There’s an institutional latticework you fit in, by listing your past institutional affiliates. The jury imagines you in their space, by checking how other boards, panels, reviewers  have valued you, and determined your worth. They check that you have critical thinking skills, to ensure you can problematize without being <i>too difficult</i> (the institutions have, after all, let you graduate). The application asks you to show your talent and creativity in legible form. You, we, upload, we link to, we narrate in words; we give clever anecdotes, we describe our potential. We argue for the content of our minds.</p>
+
+        <p>An applicant who wants to be in true study should be able to tell the story of who they are, their peculiar ways of navigation, and how they see the world. They should make themselves legible in the language, form, and style they choose. To establish camaraderie and inclusion, we propose an application that instead makes space for digressive, untidy stories of access, but also  exclusion, or the psychological impact of being the only one in an intellectually or economically homogenous space. There are other kinds of knowledge an applicant has absorbed, from their family, their life experiences, from spaces outside school. In evaluation, we will  blind information about past schooling, to make space for those who have not accessed formal or prestige schooling. We invite applicants to describe their first job, and to reflect on the opportunities they’ve accessed or been denied, their life journey and their struggles. While colleges may ask for similar stories, their admissions committees often are trying to identify students who, in spite of their “messy” backgrounds, will go on to win prestigious awards. But an elite education does not wash away the trauma of a difficult life story. And there is a space of art making beyond awards and accolades. We are seeking people whose social experience and conceptual interests merge to form a rich art practice. We most want to see how their relationship to society informs the art that they make.</p>
+
+        <p>Privileging written communication is another issue. Most art school applications favor the college essay-style over other modes of communication. Even talented applicants with great ideas may have a difficult time conforming to these expectations, if, for instance, they are dyslexic. Often, institutions interpret subpar writing as an indication of a weak candidate. This bias speaks to a failure of imagination, a failure to account for all the ways one may communicate. We invite potential students to submit their answers in a traditional written form, but also in video or audio response. They’re asked to choose any form best fit to their methods of observation, analysis, synthesis.</p>
+
+        <p>We further feel, as an interdisciplinary program, that our application should reflect all the ways to gather and give knowledge that are not Western colonial. As we embark on our first year, we aim to actively identify and tackle the various expressions of oppression and colonialism that exist in most all aspects of education. These same elements may exist in our own program, and will take time to identify and excise. And so, while we don’t have all the answers yet, with time we hope to develop pedagogical strategies that move our teaching away from the past.</p>
+
+        <p>We understand that submissions are only an approximation of who applicants  are as full, complex people. As we’ve experienced in our own lives as artists and writers, there are manifold ways of pursuing inquiry and investigation, across genres, styles, and fields of knowledge. To begin reinventing the application process not only requires concrete, formal changes. Those doing the assessment must enact continual self-criticality, putting in the messy, painful work to unlearn. We commit to conscious reassessment of our own blind spots, to question our tastes, judgments, and biases.</p>
+      </div>
+      <div class="info-spacer" id="info5"><img src="files/rect_bw1.svg"></div>
+      <div id="people">
+        <div class="section-head">
+          <h1>People</h1>
+          <div class="mobi-img">
+          <img class="mobi nav_small" src="files/mobi_eye_black.png">
+        </div>
+        </div>
+
+        <h3>Directors, Advisors.</h3>
+        <div class="subhead"><span>Directors</span></div>
+          <div class="section-image"><img src="files/directors.jpg" alt="Screenshot of Caitlin Cherry, Nora Khan, and Nicole Maloof in a video conference"><p id="caption">Clockwise: Caitlin Cherry, Nicole Maloof, Nora Khan</p></div>
+        <div class="bio">
+        <h2>Caitlin Cherry</h2>
+        <h3>Founder, Director</h3>
+        <p>It is partially a function of my life as an artist and academic to give public lectures at some great universities and art schools. This past year I’ve spoken at Yale, Cornell, UC Berkeley, and University of Michigan. And every time, it begins with me standing nervously by the podium looking out to the audience while presenting myself as distinguished but humble. My designated host introduces me formally to the audience by reading my biography. You may be familiar with this custom. They read off where I was born, the schools I’ve attended and graduated from, the accolades and the shows I’ve participated in the past decade. Something about this tradition never sat right with me as a Black woman with a complicated history; why am I reducing myself to a collection of socially-validated institutions that I’ve associated myself with?</p>
+     
+        <p>I didn’t come from a creative family. My mother was a secretary and my father worked most of his life as a worker on an automotive assembly line. Growing up in Chicago, I lacked any particular motivation to do anything but sports and art. My GPA and ACT scores would have hardly gotten me into a decent state school, I certainly wasn’t Northwestern bound. It took me a while to become “good at school”. My parents supported my ambitions the best they could. I spent a year at a community college before I was able to attend the School of the Art Institute of Chicago.</p>
+        <p class="readmore"><span>&#8627;Read More</span></p>
+        <div class="more">
+        <p>While I was there, I had growing pains exasperated by feeling alienated from a student and faculty body I did not identify with. I took classes with wealthy students who were already clued in on art history, philosophy, and contemporary art thanks to the prep schools they attended before college. They were well-travelled and had elegant language to describe their budding artistic practices. Meanwhile, I failed many classes as I wallowed in a cycle of perfectionism and paralyzation. I worried that I wasn’t suited for that environment.</p>
+        
+        <p>I was always worthy enough to stand alongside my peers at the time. I had just suffered for too long under an educational system that stifled my confidence and did not allow flexibility to support the unique ways I learn. This system only celebrates certain expressions of intelligence. Eventually, as I  learned more about who I was as a person and aligned myself with professors who saw my potential, I began to excel. My painting practice evolved at odds with the white patriarchal understanding of mastery. I eventually retooled other art mediums into my inter disciplinary investigations, including sculpture and installation. I inherited from my time at SAIC a regional artistic sensibility and rebellious spirit.</p>
+
+        <p>In 2010, I moved to NYC to continue my graduate education at Columbia University. I grew my student loan debt exponentially to achieve a sought-after artist pedigree. I used art as a vehicle to learn everything because it was what got me in the door. “Making” motivated me to learn. At Columbia, I took a deeper root in the fine arts, but I also crawled across many fields, including gender and race studies, history, economics, political science, technology and new media studies.</p>
+
+        <p>My career has since taken a nonlinear path. I have exhibited at museums, galleries, and at times lived solely from my artistic career depending on the tastes of the elite that control the industry. There were equal bouts of working retail and factory and jobs in Brooklyn to make ends meet. I learned that seeking out a widespread community beyond the cognoscenti of the arts or order to survive to maintain a grounded vantage point in a dense city like New York. When I began teaching as an adjunct at Brooklyn College, Columbia University, Pace University, Pennsylvania Academy of Fine Art, and University of Tennessee Knoxville my housing was unstable and I integrated this grit, realism, and flexibility into my engagement with my students. I eventually advanced to teaching full-time and quickly realized that art education even across many states and different types of educational models, remains a luxury for those already with means. Now, I am an Assistant Professor at Virginia Commonwealth University in Painting and Printmaking.</p>
+
+        <p>Regardless of my affiliation with any established art institution, I remain invested in education because of my love of engaging students. I feel especially responsible as an artist who has treaded on and veered wildly off expected paths to guide them to a new way of imagining success. Makers and thinkers should take on risks and experience failure often. It makes us radical. We should resist conventional methods whenever we see them limiting our imagination. It makes us true. We should be well-rounded outside of the research and the studio to keep the vital energy necessary to produce thoughtful work. Art isn’t everything, but for me it was the gateway to it. The core principles in my teaching philosophy have become the base layers in the founding of this new program, Dark Study.<!--<span class="readless">[Read Less]</span>--></p>
+      </div>
+        
+      </div>
+      <div class="bio">
+        <h2>Nora Khan</h2>
+        <h3>Director</h3>
+        <p>My first story is brief: a professional writer of fourteen years, an art and technology critic, a curator, a professor at RISD, teaching the history of media art, criticism, theory, writing, and artistic research. Writing is a practice that allows me to collaborate with artists, programmers, and engineers working at the edge of their fields. I write on the history and design of technology, AI, models, simulation, predictive policing, and neural networks. On how the design of computation, its aesthetics, is deployed to organize, influence, and shape cognition.</p>
+
+        <p>My second story is a dungeon game, one that any poor, First Generation, South(east) Asian immigrant has played. I carry the effects of war in my body through epigenetic and directly-inflicted trauma. I destroyed my health many times, to be considered good enough in homogenous academic spaces where I was the only one. Before I could clearly analyze myself and others within the structures of racial capitalism reflected in academia - a skill that only came from outside academia - I mixed up exceptionalism with merit. Over time, through writing, I could bridge my solitude with that of others, who also learned to survive by using the dominant language as a weapon. We mapped the system of this language. Using the colonizer’s language to hide, to together crawl, sing, squeeze through, hoping to reach some elusive horizon of stability, equity, respect, and love.</p>
+
+        <p class="readmore"><span>&#8627;Read More</span></p>
+        <div class="more">
+        <p>My third story is that of learning and unlearning. I studied history and literature at Harvard. We read the great theory and the great novels. I learned to write criticism and fiction. In my junior year, I started to take creative writing workshops with Jamaica Kincaid, who became my thesis advisor. Kincaid helped me start the lifelong process of “unlearning everything”: bad prose tics, twenty dollar words, performance of knowledge. What mattered was finding and refinding one’s internal voice, to speak in direct, clear language. At the Iowa Writers’ Workshop, I studied fiction. I taught writing for the first time. Elizabeth McCracken said to me, casually, “There are no rules in art.” That stayed with me and gave me the courage to write about what I wanted to.</p>
+    
+        <p>My fourth story is one of No’s. My biography could be a list of all the times that professors, writers, novelists, critics, editors, mentors, have asked me, “Why are you writing that? Why are you spending your time on that?” Why not my culture, my self, my body, or my traumas, my experience in the world? Why not just write that beautiful novel about identity, exile, and longing? The more concerned friends would suggest I return and get back to recognizable forms. Nearly every niche subject I have taken seriously, have spent hundreds of hours on, has been a subject someone, at some point, has told me to abandon, ignore, in favor of a better subject. The No’s are forever interesting to me because of the reasons they are said, because these No’s softly close off avenues of pursuit. An aversion to studying what is the purview of the male (philosophy, logic, computation); an aversion to the low (games, game design); an aversion to the difficult or gross or strange (speculative and science fiction); an aversion to the genre-adjacent or hybrid and finally, an aversion to any kind of expression that was just about too many different things: futurity, trauma, machines, love, affect, race, politics, history.</p>
+
+        <p>Ironically, my early desire to be freed of myself through writing about the abstract, “pure” fields of inquiry, meaning, freed of the perceived “mess” of the body, or politics, led me back around to the inescapability of either. I found what I was interested in, despite school and despite thoughtful critique. My choice of what I would write on was political. Writing about technology, about machine learning, about AI, about game design was doubted because these “notes” were, are, themselves gendered, racialized, and class-based as much as they are rooted in craft. I have found homes for sharing thinking in my study with other people. I have learned that writing and thinking through these “notes” has helped me find the loves of my life, the subjects I should have no right to.</p>
+
+        <p>My fifth story is about teaching, and mentorship, and creating space for that untested idea, developing persistence and resilience in pursuit of it. Through college, I taught in the prison education program at Suffolk County Prison. These experiences teaching were more important than my university education. I have taught critical writing in every type of classroom: for high school students, for MBAs, for MFAs, for adult learners. Underneath the syllabus is a different room, in which we learn together to stake claims through a shared poetics, to adjust and revise methodologies and modes of inquiry, to make critique a kind of political and strategic work.<!--<span class="readless">[Read Less]</span>--></p></div>
+      </div>
+      <div class="bio">
+        <h2>Nicole Maloof</h2>
+        <h3>Director</h3>
+        <p>My experience in education has been a long, circuitous process, both with regard to my own formal education, as a student, and my time in the classroom as an educator. My own resume ticks all the "correct," "prestigious" check-boxes: Harvard, Columbia, Fulbright, Williams. However, what these institutions best taught me was that any action executed against the oppressive systems these institutions were founded on and claimed to oppose — profit, imperialism, and an ideologically entrenched canon — would in fact be met with great resistance, confusion, and animosity. I believe that knowledge should be open to all, and not wielded against people.</p>
+
+        <p>My own educational path began with a course of study that bewildered many at the time: chemistry and painting at Boston University. With no advisor, and fully responsible for the cost of my education, looking back, I am honestly surprised I graduated. My course of study stirred up much antagonism, with very little understanding. I went on to work at Harvard University as a research associate in organic chemistry, and witnessed firsthand how ugly the politics linking academic science with industry could be. Teaching English in Korea was an imperialist project, camouflaged under the banner of multiculturalism and education. At Columbia University, where I received my MFA in visual arts, academic theory centered on class criticality was thrown about, all while the school actively alienated and punished students who were not wealthy.</p>
+        
+        <p class="readmore"><span>&#8627;Read More</span></p>
+        <div class="more">
+        <p>With regard to my visual arts education, I began quite traditionally, with a strict focus on oil painting, receiving classical training in drawing, painting, and printmaking, and with observation at the core of my studies. I eventually left oil painting behind, and drawing took center stage. I further studied etching and silkscreen, and in graduate school, I learned to make video. My practice currently involves a mix of writing, drawing, printmaking, and video, with my teaching practice never straying far. My work considers the many ways, and varying scales, in which humans relate to one another — through domination and subjugation, street signs and bananas, through tender gestures and anxiety, love and knowledge, use-value and value. While I no longer make oil paintings, observation remains at the heart of my practice. Whether drawing from life or researching for a project, making art always begins with looking at a thing. And from there, hopefully looking leads to understanding, to capture its essence in a drawing, a video, or a print.</p>
+
+        <p>As an educator for the past ten years, from pro-bono work with low-income and at-risk teenagers to professional top-tier tutoring and college-level instruction, I have seen a broad cross-section of education as a whole. It has become very clear how our educational system operates in general: who it serves, its many failings. Empty calls for diversity, openly racist professors who remain unchallenged, a lack of support for first-generation and low-income students — these are some of the many problems at the post-secondary level. Meanwhile, our primary and secondary schooling largely determines who may even consider higher education, with gatekeeping in the form of standardized testing, school district zoning, access to extracurricular programming, school supplies, and now reliable internet. Education is far from a neutral endeavor; it replicates the very class organization of our society, a structure based on maintaining inequality. It is for this reason I am committed to building a learning program that addresses society for what it truly is, so that knowledge is pursued with awareness and full context of societal systems.<!--<span class="readless">[Read Less]</span>--></p>
+      </div>
+      </div>
+
+        <!-- <div class="subhead"><span>Faculty</span></div>
+        <div id="fac"><p>Our list of faculty will expand over the next weeks. Below, you can find our core teachers for this fall, along with the name of the seminar or class they will be leading.</p>
+        <ul>
+          <li><b>Caitlin Cherry</b> — <i>Divergent 1</i>, Fall 2020</li>
+          <li><b>Nora Khan</b> — <i>From Critique to Critical Resistance</i>, Fall 2020</li>
+          <li><b>Nicole Maloof</b> — <i>Art for Whom?</i>, Fall 2020</li>
+        </ul>
+      </div> -->
+        <div class="subhead"><span>Advisors</span></div>
+        <div id="advisors"><p>In addition to courses, enrolled students will be able to select from Dark Study’s Directors, in addition to advisors listed below, to create a network of support and critical feedback for their practice. Advising will adapt to student interests and foster a space for experimentation, investigation, and discourse. Our advisor group will grow as we do. This fall, our advisors will be:</p>
+          <div class="advisor-info" id="borgonjon">
+            <div class="bio-pic"></div>
+            <p><a href="https://davidborgonjon.com/" target="_blank">David Xu Borgonjon</a></p>
+            <div class="bio-text"></div>
+          </div>
+          <div class="advisor-info" id="darling">
+            <div class="bio-pic"></div>
+            <p><a href="https://bravenewwhat.org/" target="_blank">Jesse Darling</a></p>
+            <div class="bio-text"></div>
+          </div>
+          <div class="advisor-info" id="gossett">
+            <div class="bio-pic"></div>
+            <p><a href="https://chegossett.wordpress.com/" target="_blank">Che Gossett</a></p>
+            <div class="bio-text"></div>
+          </div>
+          <div class="advisor-info" id="moses">
+            <div class="bio-pic"></div>
+            <p><a href="https://curatorsintl.org/collaborators/serubiri-moses" target="_blank">Serubiri Moses</a></p>
+            <div class="bio-text"></div>
+          </div>
+          <div class="advisor-info" id="perry">
+            <div class="bio-pic"></div>
+            <p><a href="https://sondraperry.com/" target="_blank">Sondra Perry</a></p>
+            <div class="bio-text"></div>
+          </div>
+        </div>
+      </div>
+      <div class="info-spacer" id="info2"><img src="files/rect_bw2.svg"></div>
+      <div id="study">
+        <div class="section-head">
+          <h1>Study</h1>
+          <div class="mobi-img">
+          <img class="mobi nav_small" src="files/mobi_eye_black.png"></div>
+        </div>
+        <p>Dark Study involves two tracks. The first track is Advising + Course of Study, in which an applicant is selected for advising. The Advising Track allows for five total advisees this year - one person per each of our advisors. We will be carefully matching applicants with each advisor, to generate constructive, energizing conversation that will best facilitate their practice. In addition to one advisor, the student will select two directors to form a diverse soundboard that guides the work. As an advisee, the student must also take a minimum of one class, so they can be part of the Dark Study community.  
+        </p>
+
+        <p>The second track is the Course of Study alone, in which a student can take as many classes as they like. For this year of study, all courses will be taught in English.</p>
+
+        <div class="subhead"><span>Courses</span></div>
+        <h2>Divergent I</h2>
+        <h3>Caitlin Cherry</h3>
+        <p class="descrip">This hybrid lecture-seminar course will review instances in modern and contemporary art (with a focus on painting) where the needs of the artist and the needs of the art world diverge, from Manet’s Olympia, the New School and the FBI, to David Hammons’ tarp-covered abstract paintings. We will examine artistic production’s relationship to politics, class, and personal identity by reviewing excerpts of the following books: Van Gogh on Demand: China and the Readymade; Saturation: Race, Art, and The Circulation of Value; Abstract Expression as Cultural Critique: Dissent During the McCarthy Period; Martha Rosler’s Culture Class; Andrea Fraser’s 2016 in Museums, Money, and Politics; and Ben Davis’ 9.5 Theses on Art and Class. This course will pose this question: Can artists navigate the world with progressive politics intact?</p>
+
+        <h2>From Critique to Critical Resistance</h2>
+        <h3>Nora Khan</h3>
+        <p class="descrip">How do we bring the loving critique and analysis we lavish on art, design, and media, to bear on the state? This seminar will examine the play of artists, theorists, and organizers, as they convert critique into collective, strategic, and visionary practice, and into modes of critical resistance. We pose critique and criticality as encounter, deploying the deep read, the shared, collective eye, and the intimacy with a subject, developed through observation. This seminar will be a space to articulate in one’s voice just how complex, opaque systems - computational and social - are designed, built, and function. And there is no more fit space for mapping how economic and social oppression are reified, than emerging technology and the art made through it. We will float through critical theories of technology, within the history of cybernetics, the U.S. military, corporate design and Silicon Valley’s lore. We’ll create taxonomies for the ideologies that technologies embed: from their affectation at neutrality and apolitical purity; to logics of quantification, punishment, and policing, to the ways machine intelligence shapes language and cognition. In this collective, roiling critique, we’ll ask more of our own critical making. Is it enough to ‘unveil’ or reveal unjust design in an artwork?  As cognitive laborers, can we better analyze our own technocratic impulses and ways of seeing? Can we close-read systemic imperatives we can’t see, barely track, are disenfranchised from determining? In close-reading the politics of computational design, simulation, and AI, we find clues to reprogramming for transformative systems and politics.</p>
+
+        <h2>Art For Whom?</h2>
+        <h3>Nicole Maloof</h3>
+        <p class="descrip">Art arises from a particular maker, one who lives in a given culture in a particular time and place. Often, art can seem to emerge from outside society, unattached to the material conditions of its origin, and is often discussed as if this is indeed the case. To speak of “art for art’s sake,” of a universality of spirit, of an art separate from society—these concepts do not exist. This course will consider the ways in which all ideology has a material source and how, since art is an ideological form, it cannot but reflect a particular position in society. We will begin by looking at the world, to understand the general social organization that exists, and from there examine how those in different positions of society view that structure. From there we will then investigate what it means to know, and the process through which knowledge comes into being. Finally, we will end the course with a deep dive into the social process of art making, beginning with the question: “Art for whom?” This course will involve an intensive study of the external world, as well as an exhaustive look at oneself, as a member of society and as a maker.</p>
+      </div>
+      <div class="info-spacer" id="info3"><img src="files/rect_bw3.svg"></div>
+      <div id="faq">
+        <div class="section-head">
+          <h1>FAQ</h1> 
+          <div class="mobi-img"><img class="mobi nav_small" src="files/mobi_eye_black.png"></div>
+        </div>
+        <p class="q">I am interested in your program. How much art experience should I have?</p> 
+
+        <p class="a">At this moment, we are looking for students who have a developed art practice, one that they are looking to further enrich with discussion, debate, and critique. However, you absolutely do not need to be in an MFA program or have any kind of art degree to apply. And what do we mean by art? The definition is expansive: we include any developed artistic, conceptual, theoretical, or critical practice that extends beyond traditional disciplines. We also welcome individuals who are in school, but may not fit in well because of their practice, or will be taking time off this coming year.</p>
+
+        <p class="q">Great. How do I join?</p>
+
+        <p class="a"><a href="#admissions">Our application is now live</a>. Please submit your application by <b>Monday, September 28th, 2020, 9:00am EST</b>.</p>
+
+        <p class="q">How much will Dark Study cost me?</p>
+
+        <p class="a">Dark Study is a free program.</p>
+
+        <p class="q">When would the program start?</p>
+
+        <p class="a">At the end of October.</p>
+
+        <p class="q">How long does the program last?</p>
+
+        <p class="a">Dark Study is a one-year long program.</p>
+
+        <p class="q">Can I submit work samples that span across multiple media? For instance can I submit 5 drawings and 5 essays?</p>
+
+        <p class="a">Yes, of course! We ask that you number all files so that they match up with the corresponding numbers on your work sample list.</p>
+
+        <p class="q">After I submit my application via a shared Google Drive folder, am I allowed to alter my application materials?</p>
+
+        <p class="a">You can alter your application materials on the drive up until the due date of the application (Monday, September 28th, 2020, 9:00am EST). However, we ask that you submit only 1 Google Form. If you need to correct a clerical error, please email us.</p>
+
+      </div>
+      <div class="info-spacer" id="info4"><img src="files/rect_bw4.svg"></div>
+      <div id="donate">
+        <div class="section-head">
+          <h1>Donate + Contact</h1>
+          <div class="mobi-img">          
+            <img class="mobi nav_small" src="files/mobi_eye_black.png">
+          </div>
+
+        </div>
+        <p>We are actively seeking support to launch Dark Study. If you believe in our mission, in our pedagogy, or in us, and would like to support Dark Study, please visit our <a href="https://www.patreon.com/darkstudyprogram" target="_blank">Patreon</a> or <a href="https://www.gofundme.com/f/dark-study-program?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1" target="_blank">GoFundMe</a> pages.</p>
+
+        <p>If you would like to contact us, please e-mail us at <a href="mailto:darkstudyprogram@gmail.com">darkstudyprogram[at]gmail.com</a>.</p>
+
+        <p>Sign-up for our <a href="https://mailchi.mp/db2312533486/dark-study-mailing-list" target="_blank">mailing list</a>.</p>
+
+        <p>Finally, please follow us on Instagram: <a href="https://www.instagram.com/studydark/" target="blank">@studydark</a>, and please share the word widely on your socials with students, artists, and all those you believe would be interested in supporting or participating. We are looking to build a community. </p>
+
+      </div>
+      <div class="footer">
+        <div class="links">
+          <div class="link"><a href="mailto:darkstudyprogram@gmail.com">Email</a></div>
+          <div class="link"><a href="https://www.instagram.com/studydark/" target="_blank">Instagram</a></div>
+          <div class="link"><a href="https://www.patreon.com/darkstudyprogram" target="_blank">Patreon</a></div>
+          <div class="link"><a href="https://www.gofundme.com/f/dark-study-program" target="_blank">GoFundMe</a></div>
+        </div>
+        
+          <div class="copyright"><p>&#169;2020</p></div>
+      </div>
+
+
+
+    </div>
+
+    <div id="mission-column" class="col">
+      <div id="mission">
+        <div class="mobi mobi-eye">
+          <div id="eyegreen"><img src="files/mobi_eye_green.png"></div>
+          <div id="eyeblack"><img  src="files/mobi-black.png"></div>
+        </div>
+        <p><span class="first">Dark Study is an experimental program centered on art.</span> We take this absence of the studio and the university’s full support as a profound opportunity. In our faculty and students, we are in search of a cohort of minds distributed around the world. We are digitally-rooted and virtual-first.</p>
+
+        <p>Dark Study takes up the work that the university prevents through regulation, intellectual property ownership, and massive debt. <span class="haunt" id="haunt2">Dark Study serves the underserved and underrepresented locked out of the racket of higher education</span>. Dark Study acknowledges the risk, precarity, and failures inherent to pursuit of a creative practice today. Dark Study strives to teach art and design as understood through materialism, history, economics, critical theory, <span class="haunt" id="haunt5">and philosophy</span>, all within the context of new technologies. Through a transparent, open methodology and a commitment to flexibility, Dark Study encourages the potential of artistic production for direct impact on a society in crisis.</p>
+
+        <p id="dark-marker">We take the school, the university, as a place of collected minds and resources, but not the end or start of study.* We understand how, for many, keeping a respectable outer machine — the correct education, the correct learning — is a way to survive. We also value the wrong education, the improper learning, which goes on alongside the proper. We understand dark study to continue on beyond, despite, and without the university. Dark Study is not a pure space. <span class="dark">Dark Study is the work in the shadows, in which the collective practice and dynamic action of thinking, unthinking, and rethinking, takes priority over investment in one’s singular identity as a thinker.</span><span data-typer="We are a group of artists, thinkers, writers, activists."></span> We take up the intellectual work of being together, reading together, thinking together, <!--<span class="note" id="moten">-->“what you do with other people,”<sup>&#8224;</sup><!--</span>--> in <!--<span class="note" id="para-institutional">-->para-institutional<sup>&#8225;</sup><!--</span>--> spaces that resist extraction.</p>
+
+        <p>Dark Study can house ideas and practices that would otherwise have no home, having no root in a genre, no institutional or academic validation. We hope to create a third space where artists can do unworthy work, where the wrong kinds of ideas can flourish. <span class="haunt" id="haunt8">We speak plainly, in the hope of locating the knowledge that evades language</span>. Sometimes these ideas look warped, like the rot, slime, and exhaust of production. As teachers, we uphold the mess and contradictions in our own relationships to knowledge, form, canon, and discipline. We stress interdisciplinary investigation. In practice, this tends to take form as artistic research production across video, media art, traditional media, design, computation, and the sciences.</p>
+
+        <p>Dark Study is a refuge for students dealing with the untenability of higher education and the fallout of neoliberalism. <span class="note" id="we">We</span> are committed to building a learning program that addresses society point-blank for what it is. Education is far from a neutral endeavor; it mirrors and even replicates the very oppressive state mechanism under which it exists. Our post-secondary educational system serves the <span class="haunt" id="haunt1">upper middle class</span> and the wealthy. Within these schools, knowledge is divided and separated into various fields of expertise, <span class="haunt" id="haunt7">in which the list of gatekeepers is petrified</span>. Only those with higher degrees are allowed to have valid ideas. What is studied, and who is allowed to study: these parameters silently thread their way into the fabric of the university system. Within this suffocating environment, <span class="haunt" id="haunt3">the few Black, Indigenous, First Generation, and low-income students</span> who are present experience little support.</p>
+
+        <p>For each of us, the internet has been a primary home for thinking, criticism, and collaboration. It is not a limitation. Being online allows for dimensional ways of being. Practices expand; one can more easily transition to other forms, flowing from painting to code, to theoretical deconstruction, to systems and game design, to writing a novel. Collaboration is made easier, is even more potent and focused than in real life. Investigations deepen. Working online allows for a return to the simplicity of deliberating about intention, method, material, and subject.</p>
+
+        <p>There is surely a tactile sensitivity loss when we transition to the instruction of painting, sculpture, printmaking, and other plastic arts online. However, when we recognize the digital interfaces that these plastic media have a conversation with, as that work gets documented via camera, transformed into code, processed in photo-editing, and then lives on websites and moves through the Internet, we gain a new material sensitivity and possibility. We have discovered great advantages in advising the plastic arts in this format.</p>
+
+        <p><span class="haunt" id="haunt9">Our embodied experience makes us qualified, but we recognize the limits of those qualifications in favor of work that happens underneath and below</span>. We believe a fancy degree should not be synonymous with deep knowledge, nor should the absence of such a piece of paper bar a student from pursuing a subject’s close study. We also believe knowledge must be pursued with awareness of the full context of societal systems. To do so, we have had to move our more serious pursuits of learning and teaching beyond the bounds of institutions, and we invite you to join us in retreat.</p>
+
+        <p><span class="haunt" id="haunt4">This program is a place of resource redistribution aimed towards nothing less than liberatory ends</span>.</p>
+
+        <div class="footnotes">
+          <p class="footnote"><b>&#8224;</b> We are indebted to Fred Moten and Stefano Harney’s expansive concept of study, defined at length in The Undercommons and elaborated upon in <a href="https://www.newyorker.com/culture/persons-of-interest/fred-motens-radical-critique-of-the-present" target="_blank">this interview</a> with Moten.</p>
+          <p class="footnote"><b>&#8225;</b> Para-institutional spaces exist​ besides and beyond the institution, forming alternatives while overlapping. They are ​peripheral and ad-hoc, part, but not part. They ​move ​​beyond ​logics of ​extraction​, remove barriers to accessibility, while embracing new models of knowledge transmission​.</p>
+        </div>
+      </div>
+      <!-- <div class="popup ui-widget-content" id="moten-cap">
+        <div class="close"><p>&times;</p></div>
+        <div class="modal-note"><p>We are indebted to Fred Moten and Stefano Harney’s expansive concept of study, defined at length in The Undercommons and elaborated upon in <a href="https://www.newyorker.com/culture/persons-of-interest/fred-motens-radical-critique-of-the-present" target="_blank">this interview</a> with Moten.</p></div>
+      </div>
+      <div class="popup ui-widget-content" id="para-institutional-cap">
+        <div class="close"><p>&times;</p></div>
+        <div class="modal-note"><p>"Para-institutional spaces exist​ besides and beyond the institution, forming alternatives while overlapping. They are ​peripheral and ad-hoc, part, but not part. They ​move ​​beyond ​logics of ​extraction​, remove barriers to accessibility, while embracing new models of knowledge transmission​.”</p></div>
+      </div>-->
+      <div class="popup ui-widget-content" id="we-cap">
+        <div class="close"><p>&times;</p></div>
+        <div class="modal-note"><img id="lineage" src="files/we-05.png" alt="'We' in this context consists of Caitlin Cherry, Nicole Maloof, and Nora Khan."></div>
+      </div> 
+      <div class="comment-drag ui-widget-content" id="comment-box">
+        <div class="comment-head">
+          <div class="com-name"><h3>Nicole Maloof</h3></div>
+          <div class="resolve">&#10003;</div>
+        </div>
+        <div class="comment"><p>I wonder if we could shift this from centering around ‘identity as a thinker,’ and more to the act of thinking, I feel less strongly about the label ‘thinker’ and more about the justification or validity of the thinking itself, the action of thought, the allowance of the thought to prevail and impress itself onto society.</p></div>
+      </div>
+    </div>
+  </div>
+  </div>  
+</body>
+
+
+
+
+</html>
